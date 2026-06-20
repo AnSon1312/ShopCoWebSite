@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Shop.co</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__inner">
+            <button class="mobile-menu-btn">&#9776;</button>
+            <a href="index.html" class="header__logo">SHOP.CO</a>
+            <nav class="header__nav">
+                <ul>
+                    <li><a href="catalog.html">Shop</a></li>
+                    <li><a href="#">On Sale</a></li>
+                    <li><a href="#">New Arrivals</a></li>
+                    <li><a href="#">Brands</a></li>
+                </ul>
+            </nav>
+            <div class="header__search">
+                <input type="text" placeholder="Search for products...">
+            </div>
+            <div class="header__icons">
+                <a href="cart.html" class="cart-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M7.5 21.75C7.91421 21.75 8.25 21.4142 8.25 21C8.25 20.5858 7.91421 20.25 7.5 20.25C7.08579 20.25 6.75 20.5858 6.75 21C6.75 21.4142 7.08579 21.75 7.5 21.75Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M17.25 21.75C17.6642 21.75 18 21.4142 18 21C18 20.5858 17.6642 20.25 17.25 20.25C16.8358 20.25 16.5 20.5858 16.5 21C16.5 21.4142 16.8358 21.75 17.25 21.75Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M3.75 3.75H6.75L7.05 5.25M8.25 9.75L9.75 16.5H16.5L18 9.75H8.25Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M7.05 5.25L8.25 9.75H18L16.5 16.5H9.75L7.05 5.25Z" fill="black" fill-opacity="0.4"/>
+                    </svg>
+                    <span class="cart-badge">0</span>
+                </a>
+                <a href="account.html" class="user-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <circle cx="12" cy="8" r="4" stroke="black" stroke-width="1.5"/>
+                        <path d="M5 20C5 16.6863 8.13401 14 12 14C15.866 14 19 16.6863 19 20" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="auth-page">
+        <div class="auth-box">
+            <h1>Create an Account</h1>
+            <form id="register-form">
+                <div class="auth-field">
+                    <label for="reg-name">Full Name</label>
+                    <input type="text" id="reg-name" placeholder="John Doe" required>
+                </div>
+                <div class="auth-field">
+                    <label for="reg-email">Email</label>
+                    <input type="email" id="reg-email" placeholder="john@example.com" required>
+                </div>
+                <div class="auth-field">
+                    <label for="reg-phone">Phone</label>
+                    <input type="tel" id="reg-phone" placeholder="+1 (555) 123-4567" required>
+                </div>
+                <div class="auth-field">
+                    <label for="reg-password">Password</label>
+                    <input type="password" id="reg-password" placeholder="At least 6 characters" required minlength="6">
+                </div>
+                <div class="auth-field">
+                    <label for="reg-confirm">Confirm Password</label>
+                    <input type="password" id="reg-confirm" placeholder="Repeat your password" required>
+                </div>
+                <div class="auth-error" id="reg-error"></div>
+                <button type="submit" class="auth-btn">Register</button>
+            </form>
+            <p class="auth-link">Already have an account? <a href="login.html">Log in</a></p>
+        </div>
+    </main>
+
+    <script src="js/main.js"></script>
+    <script src="js/auth.js"></script>
+</body>
+</html>

@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casual - Shop.co</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="announcement-bar">
+        <p>Sign up and get 20% off to your first order. <a href="#">Sign Up Now</a></p>
+        <button class="announcement-close">&times;</button>
+    </div>
+
+    <header class="header">
+        <div class="header__inner">
+            <button class="mobile-menu-btn">&#9776;</button>
+            <a href="index.html" class="header__logo">SHOP.CO</a>
+            <nav class="header__nav">
+                <ul>
+                    <li><a href="catalog.html">Shop</a></li>
+                    <li><a href="#">On Sale</a></li>
+                    <li><a href="#">New Arrivals</a></li>
+                    <li><a href="#">Brands</a></li>
+                </ul>
+            </nav>
+            <div class="header__search">
+                <input type="text" placeholder="Search for products...">
+            </div>
+            <div class="header__icons">
+                <a href="cart.html" class="cart-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M7.5 21.75C7.91421 21.75 8.25 21.4142 8.25 21C8.25 20.5858 7.91421 20.25 7.5 20.25C7.08579 20.25 6.75 20.5858 6.75 21C6.75 21.4142 7.08579 21.75 7.5 21.75Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M17.25 21.75C17.6642 21.75 18 21.4142 18 21C18 20.5858 17.6642 20.25 17.25 20.25C16.8358 20.25 16.5 20.5858 16.5 21C16.5 21.4142 16.8358 21.75 17.25 21.75Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M3.75 3.75H6.75L7.05 5.25M8.25 9.75L9.75 16.5H16.5L18 9.75H8.25Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M7.05 5.25L8.25 9.75H18L16.5 16.5H9.75L7.05 5.25Z" fill="black" fill-opacity="0.4"/>
+                    </svg>
+                    <span class="cart-badge">0</span>
+                </a>
+                <a href="account.html" class="user-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <circle cx="12" cy="8" r="4" stroke="black" stroke-width="1.5"/>
+                        <path d="M5 20C5 16.6863 8.13401 14 12 14C15.866 14 19 16.6863 19 20" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <div class="breadcrumb">
+        <div class="container">
+            <a href="#">Home</a>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                <path d="M4.5 2.25L8.25 6L4.5 9.75" stroke="black" stroke-opacity="0.6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span>Casual</span>
+        </div>
+    </div>
+
+    <main class="category-page">
+        <div class="container">
+            <div class="category-layout">
+                <aside class="filter-sidebar">
+                    <div class="filter-sidebar__header">
+                        <h3>Filters</h3>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M21 6H14" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+                            <path d="M6 6H3" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+                            <path d="M10 6C10 7.65685 11.3431 9 13 9C14.6569 9 16 7.65685 16 6C16 4.34315 14.6569 3 13 3C11.3431 3 10 4.34315 10 6Z" stroke="black" stroke-width="1.5"/>
+                            <path d="M21 18H17" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+                            <path d="M7 18H3" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+                            <path d="M13 18C13 16.3431 11.6569 15 10 15C8.34315 15 7 16.3431 7 18C7 19.6569 8.34315 21 10 21C11.6569 21 13 19.6569 13 18Z" stroke="black" stroke-width="1.5"/>
+                        </svg>
+                    </div>
+
+                    <div class="filter-section">
+                        <div class="filter-category">
+                            <span>T-shirts</span>
+                            <svg width="16" height="16" viewBox="0 0 12 12" fill="none">
+                                <path d="M4.5 2.25L8.25 6L4.5 9.75" stroke="black" stroke-opacity="0.6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="filter-category">
+                            <span>Shorts</span>
+                            <svg width="16" height="16" viewBox="0 0 12 12" fill="none">
+                                <path d="M4.5 2.25L8.25 6L4.5 9.75" stroke="black" stroke-opacity="0.6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="filter-category">
+                            <span>Shirts</span>
+                            <svg width="16" height="16" viewBox="0 0 12 12" fill="none">
+                                <path d="M4.5 2.25L8.25 6L4.5 9.75" stroke="black" stroke-opacity="0.6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="filter-category">
+                            <span>Hoodie</span>
+                            <svg width="16" height="16" viewBox="0 0 12 12" fill="none">
+                                <path d="M4.5 2.25L8.25 6L4.5 9.75" stroke="black" stroke-opacity="0.6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="filter-category">
+                            <span>Jeans</span>
+                            <svg width="16" height="16" viewBox="0 0 12 12" fill="none">
+                                <path d="M4.5 2.25L8.25 6L4.5 9.75" stroke="black" stroke-opacity="0.6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="filter-section">
+                        <div class="filter-section__header">
+                            <h4>Price</h4>
+                            <svg width="16" height="16" viewBox="0 0 12 12" fill="none">
+                                <path d="M2.25 8.25L6 4.5L9.75 8.25" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="price-range">
+                            <div class="price-range__slider">
+                                <div class="price-range__track"></div>
+                                <div class="price-range__fill price-range__fill--demo"></div>
+                                <div class="price-range__thumb price-range__thumb--left price-range__thumb--demo-left"></div>
+                                <div class="price-range__thumb price-range__thumb--right price-range__thumb--demo-right"></div>
+                            </div>
+                            <div class="price-range__labels">
+                                <span>$50</span>
+                                <span>$200</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filter-section">
+                        <div class="filter-section__header">
+                            <h4>Colors</h4>
+                            <svg width="16" height="16" viewBox="0 0 12 12" fill="none">
+                                <path d="M2.25 8.25L6 4.5L9.75 8.25" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="color-grid">
+                            <span class="color-swatch color-swatch--green" data-color="green"></span>
+                            <span class="color-swatch color-swatch--red" data-color="red"></span>
+                            <span class="color-swatch color-swatch--yellow" data-color="yellow"></span>
+                            <span class="color-swatch color-swatch--orange" data-color="orange"></span>
+                            <span class="color-swatch color-swatch--cyan" data-color="cyan"></span>
+                            <span class="color-swatch color-swatch--blue" data-color="blue"></span>
+                            <span class="color-swatch color-swatch--purple" data-color="purple"></span>
+                            <span class="color-swatch color-swatch--pink" data-color="pink"></span>
+                            <span class="color-swatch color-swatch--white" data-color="white"></span>
+                            <span class="color-swatch color-swatch--black" data-color="black"></span>
+                        </div>
+                    </div>
+
+                    <div class="filter-section">
+                        <div class="filter-section__header">
+                            <h4>Size</h4>
+                            <svg width="16" height="16" viewBox="0 0 12 12" fill="none">
+                                <path d="M2.25 8.25L6 4.5L9.75 8.25" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="size-grid">
+                            <span class="size-tag" data-size="XX-Small">XX-Small</span>
+                            <span class="size-tag" data-size="X-Small">X-Small</span>
+                            <span class="size-tag" data-size="Small">Small</span>
+                            <span class="size-tag" data-size="Medium">Medium</span>
+                            <span class="size-tag" data-size="Large">Large</span>
+                            <span class="size-tag" data-size="X-Large">X-Large</span>
+                            <span class="size-tag" data-size="XX-Large">XX-Large</span>
+                            <span class="size-tag" data-size="3X-Large">3X-Large</span>
+                            <span class="size-tag" data-size="4X-Large">4X-Large</span>
+                        </div>
+                    </div>
+
+                    <div class="filter-section">
+                        <div class="filter-section__header">
+                            <h4>Dress Style</h4>
+                            <svg width="16" height="16" viewBox="0 0 12 12" fill="none">
+                                <path d="M2.25 8.25L6 4.5L9.75 8.25" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="filter-category filter-style" data-style="casual">
+                            <span>Casual</span>
+                            <svg width="16" height="16" viewBox="0 0 12 12" fill="none">
+                                <path d="M4.5 2.25L8.25 6L4.5 9.75" stroke="black" stroke-opacity="0.6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="filter-category filter-style" data-style="formal">
+                            <span>Formal</span>
+                            <svg width="16" height="16" viewBox="0 0 12 12" fill="none">
+                                <path d="M4.5 2.25L8.25 6L4.5 9.75" stroke="black" stroke-opacity="0.6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="filter-category filter-style" data-style="party">
+                            <span>Party</span>
+                            <svg width="16" height="16" viewBox="0 0 12 12" fill="none">
+                                <path d="M4.5 2.25L8.25 6L4.5 9.75" stroke="black" stroke-opacity="0.6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="filter-category filter-style" data-style="gym">
+                            <span>Gym</span>
+                            <svg width="16" height="16" viewBox="0 0 12 12" fill="none">
+                                <path d="M4.5 2.25L8.25 6L4.5 9.75" stroke="black" stroke-opacity="0.6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <button class="filter-apply">Apply Filter</button>
+                </aside>
+
+                <div class="category-content">
+                    <div class="category-header">
+                        <h1 data-category-title>Casual</h1>
+                        <div class="category-header__right">
+                            <span class="category-count">Showing 1-10 of 100 Products</span>
+                            <div class="sort-dropdown">
+                                <span>Sort by: <strong>Most Popular</strong></span>
+                                <svg width="16" height="16" viewBox="0 0 12 12" fill="none">
+                                    <path d="M2.25 4.5L6 8.25L9.75 4.5" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cat-product-grid">
+                        <div class="product-card" data-id="prod-9" data-name="GRADIENT GRAPHIC T-SHIRT" data-price="145" data-image="images/Frame 32.png" data-colors="white,black" data-sizes="Small,Medium,Large,X-Large" data-style="casual">
+                            <div class="product-card__image">
+                                <img src="images/Frame 32.png" alt="Gradient Graphic T-shirt">
+                            </div>
+                            <h3>GRADIENT GRAPHIC T-SHIRT</h3>
+                            <div class="product-card__rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="rating-text">3.5/5</span>
+                            </div>
+                            <div class="product-card__price">$145</div>
+                            <button class="btn--add-to-cart" data-id="prod-9">Add to Cart</button>
+                        </div>
+                        <div class="product-card" data-id="prod-10" data-name="POLO WITH TIPPING DETAILS" data-price="180" data-image="images/Frame 34.png" data-colors="white,blue" data-sizes="Medium,Large,X-Large" data-style="formal">
+                            <div class="product-card__image">
+                                <img src="images/Frame 34.png" alt="Polo with Tipping Details">
+                            </div>
+                            <h3>POLO WITH TIPPING DETAILS</h3>
+                            <div class="product-card__rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="rating-text">4.5/5</span>
+                            </div>
+                            <div class="product-card__price">$180</div>
+                            <button class="btn--add-to-cart" data-id="prod-10">Add to Cart</button>
+                        </div>
+                        <div class="product-card" data-id="prod-11" data-name="BLACK STRIPED T-SHIRT" data-price="120" data-old-price="150" data-image="images/Frame 38.png" data-colors="black,white" data-sizes="Small,Medium,Large,X-Large" data-style="casual">
+                            <div class="product-card__image">
+                                <img src="images/Frame 38.png" alt="Black Striped T-shirt">
+                            </div>
+                            <h3>BLACK STRIPED T-SHIRT</h3>
+                            <div class="product-card__rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="rating-text">5.0/5</span>
+                            </div>
+                            <div class="product-card__price">
+                                <span class="price-current">$120</span>
+                                <span class="price-old">$150</span>
+                                <span class="discount-badge">-30%</span>
+                            </div>
+                            <button class="btn--add-to-cart" data-id="prod-11">Add to Cart</button>
+                        </div>
+                        <div class="product-card" data-id="prod-2" data-name="SKINNY FIT JEANS" data-price="240" data-old-price="260" data-image="images/Frame 33.png" data-colors="blue,black" data-sizes="Small,Medium,Large,X-Large" data-style="casual">
+                            <div class="product-card__image">
+                                <img src="images/Frame 33.png" alt="Skinny Fit Jeans">
+                            </div>
+                            <h3>SKINNY FIT JEANS</h3>
+                            <div class="product-card__rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="rating-text">3.5/5</span>
+                            </div>
+                            <div class="product-card__price">
+                                <span class="price-current">$240</span>
+                                <span class="price-old">$260</span>
+                                <span class="discount-badge">-20%</span>
+                            </div>
+                            <button class="btn--add-to-cart" data-id="prod-2">Add to Cart</button>
+                        </div>
+                        <div class="product-card" data-id="prod-3" data-name="CHECKERED SHIRT" data-price="180" data-image="images/Frame 33.png" data-colors="red,blue" data-sizes="Medium,Large,X-Large" data-style="party">
+                            <div class="product-card__image">
+                                <img src="images/Frame 33.png" alt="Checkered Shirt">
+                            </div>
+                            <h3>CHECKERED SHIRT</h3>
+                            <div class="product-card__rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="rating-text">4.5/5</span>
+                            </div>
+                            <div class="product-card__price">$180</div>
+                            <button class="btn--add-to-cart" data-id="prod-3">Add to Cart</button>
+                        </div>
+                        <div class="product-card" data-id="prod-4" data-name="SLEEVE STRIPED T-SHIRT" data-price="130" data-old-price="160" data-image="images/Frame 38.png" data-colors="white,black,gray" data-sizes="Small,Medium,Large" data-style="casual">
+                            <div class="product-card__image">
+                                <img src="images/Frame 38.png" alt="Sleeve Striped T-shirt">
+                            </div>
+                            <h3>SLEEVE STRIPED T-SHIRT</h3>
+                            <div class="product-card__rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="rating-text">4.5/5</span>
+                            </div>
+                            <div class="product-card__price">
+                                <span class="price-current">$130</span>
+                                <span class="price-old">$160</span>
+                                <span class="discount-badge">-30%</span>
+                            </div>
+                            <button class="btn--add-to-cart" data-id="prod-4">Add to Cart</button>
+                        </div>
+                        <div class="product-card" data-id="prod-5" data-name="VERTICAL STRIPED SHIRT" data-price="212" data-old-price="232" data-image="images/Frame39.png" data-colors="white,blue" data-sizes="Medium,Large,X-Large" data-style="formal">
+                            <div class="product-card__image">
+                                <img src="images/Frame39.png" alt="Vertical Striped Shirt">
+                            </div>
+                            <h3>VERTICAL STRIPED SHIRT</h3>
+                            <div class="product-card__rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="rating-text">5.0/5</span>
+                            </div>
+                            <div class="product-card__price">
+                                <span class="price-current">$212</span>
+                                <span class="price-old">$232</span>
+                                <span class="discount-badge">-20%</span>
+                            </div>
+                            <button class="btn--add-to-cart" data-id="prod-5">Add to Cart</button>
+                        </div>
+                        <div class="product-card" data-id="prod-6" data-name="COURAGE GRAPHIC T-SHIRT" data-price="145" data-image="images/Frame40.png" data-colors="black,white" data-sizes="Small,Medium,Large" data-style="party">
+                            <div class="product-card__image">
+                                <img src="images/Frame40.png" alt="Courage Graphic T-shirt">
+                            </div>
+                            <h3>COURAGE GRAPHIC T-SHIRT</h3>
+                            <div class="product-card__rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="rating-text">4.0/5</span>
+                            </div>
+                            <div class="product-card__price">$145</div>
+                            <button class="btn--add-to-cart" data-id="prod-6">Add to Cart</button>
+                        </div>
+                        <div class="product-card" data-id="prod-7" data-name="LOOSE FIT BERMUDA SHORTS" data-price="80" data-image="images/Frame41.png" data-colors="black,green,blue" data-sizes="Small,Medium,Large" data-style="gym">
+                            <div class="product-card__image">
+                                <img src="images/Frame41.png" alt="Loose Fit Bermuda Shorts">
+                            </div>
+                            <h3>LOOSE FIT BERMUDA SHORTS</h3>
+                            <div class="product-card__rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="rating-text">3.0/5</span>
+                            </div>
+                            <div class="product-card__price">$80</div>
+                            <button class="btn--add-to-cart" data-id="prod-7">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="pagination">
+                        <button class="pagination__btn pagination__prev">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M10 12L6 8L10 4" stroke="black" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Previous
+                        </button>
+                        <div class="pagination__pages">
+                            <span class="pagination__page pagination__page--active">1</span>
+                            <span class="pagination__page">2</span>
+                            <span class="pagination__page">3</span>
+                            <span class="pagination__page pagination__page--dots">...</span>
+                            <span class="pagination__page">8</span>
+                            <span class="pagination__page">9</span>
+                            <span class="pagination__page">10</span>
+                        </div>
+                        <button class="pagination__btn pagination__next">
+                            Next
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M6 4L10 8L6 12" stroke="black" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="subscribe">
+        <div class="container">
+            <div class="subscribe__box">
+                <h2>STAY UPTO DATE ABOUT OUR LATEST OFFERS</h2>
+                <form class="subscribe__form">
+                    <div class="subscribe__input-wrapper">
+                        <input type="email" placeholder="Enter your email address">
+                    </div>
+                    <button type="submit" class="btn btn--subscribe">Subscribe to Newsletter</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="footer__brand">
+                    <div class="footer__logo">SHOP.CO</div>
+                    <p>We have clothes that suits your style and which you're proud to wear. From women to men.</p>
+                    <div class="footer__social">
+                        <a href="#" class="social-icon">
+                            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                                <circle cx="14" cy="14" r="13.5" stroke="black" stroke-opacity="0.2"/>
+                                <path d="M19.207 9.979C18.788 10.168 18.346 10.288 17.88 10.358C18.346 10.078 18.718 9.628 18.881 9.098C18.439 9.348 17.95 9.538 17.415 9.658C16.996 9.208 16.39 8.938 15.739 8.938C14.481 8.938 13.457 9.958 13.457 11.218C13.457 11.398 13.48 11.568 13.527 11.728C11.641 11.638 9.942 10.728 8.801 9.328C8.615 9.678 8.499 10.048 8.499 10.468C8.499 11.258 8.895 11.958 9.523 12.378C9.151 12.358 8.801 12.258 8.476 12.098V12.118C8.476 13.238 9.267 14.168 10.315 14.378C10.128 14.428 9.919 14.448 9.709 14.448C9.57 14.448 9.407 14.428 9.267 14.408C9.57 15.308 10.408 15.988 11.409 15.988C10.617 16.588 9.639 16.968 8.569 16.968C8.382 16.968 8.196 16.968 8.033 16.938C9.057 17.598 10.245 17.968 11.548 17.968C15.762 17.968 18.066 14.478 18.066 11.448C18.066 11.358 18.066 11.238 18.066 11.148C18.509 10.838 18.905 10.448 19.207 9.979Z" fill="black"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                                <circle cx="14" cy="14" r="14" fill="black"/>
+                                <path d="M12.709 19.3V13.75H10.84V11.59H12.709V9.99C12.709 8.14 13.84 7.13 15.492 7.13C16.284 7.13 16.964 7.19 17.162 7.21V9.15L16.016 9.15C15.118 9.15 14.944 9.58 14.944 10.2V11.59H17.087L16.808 13.75H14.944V19.3H12.709Z" fill="white"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                                <circle cx="14" cy="14" r="13.5" stroke="black" stroke-opacity="0.2"/>
+                                <path d="M17 8H11C9.34315 8 8 9.34315 8 11V17C8 18.6569 9.34315 20 11 20H17C18.6569 20 20 18.6569 20 17V11C20 9.34315 18.6569 8 17 8Z" stroke="black" stroke-width="1.2"/>
+                                <circle cx="14" cy="14" r="3" stroke="black" stroke-width="1.2"/>
+                                <circle cx="17.5" cy="10.5" r="0.5" fill="black"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                                <circle cx="14" cy="14" r="13.5" stroke="black" stroke-opacity="0.2"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M14.607 6.23C11.016 6.23 8.127 9.12 8.127 12.71C8.127 15.57 9.99 18 12.555 18.86C12.879 18.92 12.987 18.73 12.987 18.54C12.987 18.38 12.987 17.97 12.987 17.43C11.178 17.84 10.8 16.57 10.8 16.57C10.503 15.81 10.071 15.62 10.071 15.62C9.477 15.22 10.125 15.22 10.125 15.22C10.773 15.27 11.124 15.89 11.124 15.89C11.691 16.89 12.636 16.59 13.014 16.43C13.068 16 13.23 15.73 13.419 15.57C11.988 15.41 10.476 14.84 10.476 12.36C10.476 11.65 10.719 11.06 11.151 10.63C11.097 10.47 10.854 9.82 11.205 8.9C11.205 8.9 11.745 8.74 12.987 9.57C13.5 9.44 14.067 9.36 14.607 9.36C15.147 9.36 15.714 9.44 16.227 9.57C17.469 8.74 18.009 8.9 18.009 8.9C18.36 9.79 18.144 10.44 18.063 10.63C18.468 11.09 18.738 11.65 18.738 12.36C18.738 14.84 17.226 15.38 15.768 15.54C16.011 15.73 16.2 16.14 16.2 16.73C16.2 17.59 16.2 18.3 16.2 18.51C16.2 18.67 16.308 18.89 16.659 18.84C19.224 18 21.087 15.57 21.087 12.71C21.087 9.12 18.198 6.23 14.607 6.23Z" fill="black"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__links">
+                    <div class="footer__col">
+                        <h4>COMPANY</h4>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Works</a></li>
+                            <li><a href="#">Career</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__col">
+                        <h4>HELP</h4>
+                        <ul>
+                            <li><a href="#">Customer Support</a></li>
+                            <li><a href="#">Delivery Details</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__col">
+                        <h4>FAQ</h4>
+                        <ul>
+                            <li><a href="#">Account</a></li>
+                            <li><a href="#">Manage Deliveries</a></li>
+                            <li><a href="#">Orders</a></li>
+                            <li><a href="#">Payments</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__col">
+                        <h4>RESOURCES</h4>
+                        <ul>
+                            <li><a href="#">Free eBooks</a></li>
+                            <li><a href="#">Development Tutorial</a></li>
+                            <li><a href="#">How to - Blog</a></li>
+                            <li><a href="#">Youtube Playlist</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>Shop.co &copy; 2000-2023, All Rights Reserved</p>
+                <div class="footer__payment">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Visa_Logo.png" alt="Visa">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg" alt="Mastercard">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Paypal_2014_logo.png" alt="PayPal">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/ApplePay_logo.svg" alt="Apple Pay">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Google_Pay_logo.svg" alt="Google Pay">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.announcement-close').addEventListener('click', function() {
+            document.querySelector('.announcement-bar').style.display = 'none';
+        });
+    </script>
+    <script src="js/main.js"></script>
+    <script src="js/category.js"></script>
+</body>
+</html>
